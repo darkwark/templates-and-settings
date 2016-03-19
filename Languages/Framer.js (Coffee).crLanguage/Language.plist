@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CompilerFlags</key>
+	<string></string>
+	<key>CompilerScript</key>
+	<false/>
+	<key>ConsoleType</key>
+	<integer>1</integer>
+	<key>Enabled</key>
+	<true/>
+	<key>FileExtensions</key>
+	<array>
+		<string>coffee</string>
+	</array>
+	<key>Grammar</key>
+	<string>source.js</string>
+	<key>LanguageBundleVersion</key>
+	<integer>1</integer>
+	<key>LiveConsole</key>
+	<true/>
+	<key>Name</key>
+	<string>Framer.js (Coffee)</string>
+	<key>OutputEncoding</key>
+	<integer>4</integer>
+	<key>RunCommand</key>
+	<string>coffee -c -p $filename &gt; $filename.js; echo "&lt;style&gt;*{margin:0;padding:0;border:0;-webkit-user-select:none}body{background:black url('https://i.imgur.com/CMi62Ps.png') repeat scroll top left;font:28px/1em 'Helvetica';color:#FFF;-webkit-tap-highlight-color:rgba(0,0,0,0)}a{color:#bfbfbf}&lt;/style&gt;&lt;body&gt;&lt;/body&gt;&lt;script src=\"https://raw.githubusercontent.com/koenbok/Framer/master/extras/Studio.framer/framer/framer.js\"&gt;&lt;/script&gt;&lt;script&gt;"; cat ./$filename.js; echo "&lt;/script&gt;"</string>
+	<key>SoftTabs</key>
+	<true/>
+	<key>TabWidth</key>
+	<string>2</string>
+	<key>Templates</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<integer>1</integer>
+			<key>Extension</key>
+			<string></string>
+			<key>Name</key>
+			<string>Default</string>
+			<key>NameOnCreation</key>
+			<false/>
+			<key>Template</key>
+			<string>screen = new Layer
+  width: 750
+  height: 1334
+  clip: true
+  backgroundColor: "black"
+
+screen.scale = Screen.height / screen.height
+screen.center()
+Framer.Defaults.Layer.parent = screen</string>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>41611DEA-8B57-4AD4-AE13-9BC1EFE94F26</string>
+</dict>
+</plist>
