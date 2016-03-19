@@ -25,7 +25,7 @@
 	<key>OutputEncoding</key>
 	<integer>4</integer>
 	<key>RunCommand</key>
-	<string>echo "&lt;style&gt;*{margin:0;padding:0;border:0;-webkit-user-select:none}body{background:black url('https://i.imgur.com/CMi62Ps.png') repeat scroll top left;font:28px/1em 'Helvetica';color:#FFF;-webkit-tap-highlight-color:rgba(0,0,0,0)}a{color:#bfbfbf}&lt;/style&gt;&lt;body&gt;&lt;/body&gt;&lt;script src=\"https://raw.githubusercontent.com/koenbok/Framer/master/extras/Studio.framer/framer/framer.js\"&gt;&lt;/script&gt;&lt;script&gt;"; cat $filename; echo "&lt;/script&gt;"</string>
+	<string>echo "&lt;style&gt;*{margin:0;padding:0;border:0;-webkit-user-select:none}body{background:black;font:28px/1em 'Helvetica';color:#FFF;-webkit-tap-highlight-color:rgba(0,0,0,0)}a{color:#bfbfbf}&lt;/style&gt;&lt;body&gt;&lt;/body&gt;&lt;script src=\"http://builds.framerjs.com/a85d1df/framer.js\"&gt;&lt;/script&gt;&lt;script&gt;"; cat $filename; echo "&lt;/script&gt;"</string>
 	<key>SoftTabs</key>
 	<true/>
 	<key>TabWidth</key>
@@ -57,6 +57,6 @@ Framer.Defaults.Layer.parent = screen
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>9D79CEF5-E4B1-4675-AC57-1C104383EAD7</string>
+	<string>EE97DB5B-A962-4643-8DA9-C1E9795F26CA</string>
 </dict>
 </plist>
