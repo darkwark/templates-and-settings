@@ -4,7 +4,11 @@
 ## Install
 Just double-click on `.crLanguage` file to add it to CodeRunner. Alternatively, you can open `Preferences→Languages` and import language files manually
 
-## Download
+## Languages
 **[Framer.js](https://github.com/darkwark/coderunner-langs/raw/master/framerjs.zip)**  
 Support for [Framer.js](http://framerjs.com/).  
-[CoffeeScript](http://coffeescript.org/) version requires coffee compiler to be installed on computer
+[CoffeeScript](http://coffeescript.org/) version requires coffee compiler to be installed on computer  
+
+**Babel.js**  
+Support for [Babel.js](http://babeljs.io/).  
+Requires [Babel CLI](http://babeljs.io/docs/usage/cli/) to be installed globally on computer
